@@ -1,0 +1,30 @@
+{
+  "name": "pdi-digitalizador-3d",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:geometry": "node --test tests/geometry.test.js",
+    "test:production": "npm run build && playwright test --config playwright.production.config.js",
+    "format": "prettier --write src tests scripts *.js index.html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "prettier": "^3.10.1",
+    "vite": "^8.3.6"
+  },
+  "dependencies": {
+    "@techstark/opencv-js": "^5.0.0-release.1",
+    "@tensorflow/tfjs": "^4.22.0",
+    "lucide": "^1.80.0",
+    "three": "^0.187.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
