@@ -14,10 +14,10 @@ A fotografia é corrigida por homografia e segmentada; seus contornos geram a ma
 | Professor indicado no enunciado | Daniel Corrêa Da Silva |
 | Repositório | https://github.com/leoroncolato/pdi-digitalizador-3d |
 | Aplicação publicada | Pendente de publicação |
-| Vídeo de 3–5 minutos | Pendente de gravação e link |
+| Vídeo de 3–5 minutos | [Demonstração legendada — 3min30s](docs/demonstracao.mp4) |
 | Entrega / apresentação | Datas ainda não definidas no enunciado |
 
-Equipe em dupla. Manter contribuições reais de ambos os integrantes no histórico Git. O código não substitui a gravação, a publicação ou a apresentação exigidas.
+Equipe em dupla. Manter contribuições reais de ambos os integrantes no histórico Git. A demonstração legendada já foi gerada. A dupla deve revisar o vídeo e complementar com exemplos próprios; a publicação do site e a apresentação ainda precisam ser confirmadas.
 
 ## Executar
 
@@ -156,7 +156,7 @@ Resultados executados: [relatório de validação](docs/VALIDACAO.md).
 
 Consultar [a matriz de requisitos](docs/REQUISITOS.md) e [os roteiros de apresentação](docs/APRESENTACAO.md). A meta de **15 FPS ou mais** deve ser medida no computador do laboratório. Resultados de automação em navegador sem GPU dedicada não substituem essa medição.
 
-O vídeo, os dados reais de avaliação do classificador, o histórico de contribuições e a apresentação são partes da entrega que precisam ser concluídas pela equipe. Não há promessa de nota nem de atendimento a critérios dependentes da demonstração antes dessa validação.
+A revisão do vídeo, os dados reais de avaliação do classificador, o histórico de contribuições e a apresentação são partes da entrega que precisam ser concluídas pela equipe. Não há promessa de nota nem de atendimento a critérios dependentes da demonstração antes dessa validação.
 
 ## Autoria, assistência e referências
 

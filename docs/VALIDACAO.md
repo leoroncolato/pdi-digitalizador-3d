@@ -4,6 +4,7 @@ Verificações executadas no ambiente de desenvolvimento em 25/11/2026 (America/
 
 | Verificação | Resultado observado |
 | --- | --- |
+| `npm ci` | Reinstalação com lockfile aprovada |
 | `npm run build` | Aprovado; build estático Vite |
 | `npm run test:geometry` | 5 testes aprovados |
 | Suíte de interface em desenvolvimento | 2 testes aprovados: upload, exemplos, controles, STL, responsividade e webcam simulada |
@@ -27,6 +28,10 @@ O carregamento direto do export UMD Promise de OpenCV.js funcionava no modo de d
 
 ## Limites da evidência
 
-Não foram avaliados desenhos de um conjunto real independente nem a webcam física. A confiança e os acertos nos exemplos sintéticos não representam precisão sobre fotografias reais. Na captura automatizada com renderização de software houve amostras de aproximadamente 13–15 FPS; isso não comprova o mínimo de 15 FPS no computador do laboratório. A ficha em REQUISITOS.md deve ser preenchida no equipamento da apresentação, com webcam e inferência ativas.
+Não foram avaliados desenhos de um conjunto real independente nem a webcam física. A confiança e os acertos nos exemplos sintéticos não representam precisão sobre fotografias reais. Na captura automatizada com renderização de software houve amostras de aproximadamente 13–18 FPS; isso não comprova o mínimo de 15 FPS no computador do laboratório. A ficha em REQUISITOS.md deve ser preenchida no equipamento da apresentação, com webcam e inferência ativas.
 
 Publicação no GitHub Pages, contribuições individuais no histórico e apresentação presencial dependem das etapas de entrega da dupla. Um workflow preparado não é evidência de publicação.
+
+## Vídeo de demonstração
+
+[demonstracao.mp4](demonstracao.mp4): H.264, 1280 × 900, 210,16 segundos (3min30s), cerca de 3,3 MB, sem áudio e com legendas explicativas. Gravado por automação de interações reais no build de produção. Decodificação integral validada com FFmpeg e quadros do início, meio e fim inspecionados. A gravação não comprova desempenho no laboratório nem substitui a apresentação da dupla.

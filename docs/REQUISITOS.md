@@ -85,7 +85,8 @@ Separar FPS de renderização da taxa de processamento/inferência: a cena pode 
 - [ ] Registrar a validação da versão final, incluindo a medição no laboratório.
 - [ ] Coletar exemplos próprios e documentar a avaliação do classificador.
 - [ ] Publicar o build e acrescentar a URL de produção no README.
-- [ ] Gravar vídeo de 3–5 minutos e incluir o link.
+- [x] Gerar demonstração técnica legendada de 3min30s: [vídeo](demonstracao.mp4).
+- [ ] A dupla deve revisar o vídeo e complementar com desenhos próprios antes de entregar.
 - [ ] Preparar apresentação de 10 minutos e ensaiar perguntas para todos os integrantes.
 - [ ] Entregar os links do repositório, da aplicação publicada e do vídeo pelo canal solicitado pelo professor.
 

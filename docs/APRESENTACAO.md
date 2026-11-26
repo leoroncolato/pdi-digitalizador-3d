@@ -1,3 +1,5 @@
+Vídeo técnico disponível: [demonstração legendada de 3min30s](demonstracao.mp4). Revisem as legendas e complementem com desenhos reais e explicação da dupla, se necessário.
+
 # Roteiros de demonstração e apresentação
 
 Estes roteiros organizam os entregáveis do enunciado. Não são um vídeo já gravado nem substituem a apresentação da equipe.
